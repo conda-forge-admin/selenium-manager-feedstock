@@ -54,7 +54,7 @@ requirements:
     - ${{ stdlib("c") }}
     - cargo-auditable
     - cargo-bundle-licenses
-    - pkg-config
+    - pkgconf
   host:
     - zstd
 
