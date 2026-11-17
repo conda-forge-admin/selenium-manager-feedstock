@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "4.52.0"
+  version: "4.53.0"
   env_d_json: selenium-manager.json
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://github.com/SeleniumHQ/selenium/archive/refs/tags/selenium-${{ version }}.tar.gz
-  sha256: 3282451cad462cd5b7c941fbb71b8db1ace6d6ab160d2c90eed7c984068f4b1a
+  sha256: 545fb9058ca802382f74292fdd5b3dcec306664530731d72038ca8a6901016f9
 
 build:
   number: 0
@@ -54,7 +54,7 @@ requirements:
     - ${{ stdlib("c") }}
     - cargo-auditable
     - cargo-bundle-licenses
-    - pkg-config
+    - pkgconf
   host:
     - zstd
 
